@@ -5328,19 +5328,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Darius Walker\\.nuget\\packages\\": {}
+    "C:\\Users\\Christian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj",
+      "projectUniqueName": "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj",
-      "packagesPath": "C:\\Users\\Darius Walker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\obj\\",
+      "projectPath": "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Darius Walker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

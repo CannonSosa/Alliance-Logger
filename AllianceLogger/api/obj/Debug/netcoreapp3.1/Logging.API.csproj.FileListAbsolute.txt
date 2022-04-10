@@ -1,0 +1,130 @@
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.exe
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.deps.json
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.runtimeconfig.json
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.runtimeconfig.dev.json
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.pdb
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.AssemblyReference.cache
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.AssemblyInfoInputs.cache
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.AssemblyInfo.cs
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.CoreCompileInputs.cache
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\staticwebassets\Logging.API.StaticWebAssets.Manifest.cache
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\staticwebassets\Logging.API.StaticWebAssets.xml
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Logging.API.styles.css
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.RazorTargetAssemblyInfo.cache
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.dll
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.pdb
+C:\Websites\Logging.API\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.genruntimeconfig.cache
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Websites\Logging.API\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.dll
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.pdb
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.AssemblyReference.cache
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.AssemblyInfoInputs.cache
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.AssemblyInfo.cs
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.CoreCompileInputs.cache
+C:\Users\Darius Walker\source\repos\dwalker0311\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.AssemblyReference.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.AssemblyInfoInputs.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.AssemblyInfo.cs
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.CoreCompileInputs.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.pdb
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.StaticWebAssets.xml
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.exe
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.deps.json
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.runtimeconfig.json
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.runtimeconfig.dev.json
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Logging.API.pdb
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\staticwebassets\Logging.API.StaticWebAssets.Manifest.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.RazorTargetAssemblyInfo.cache
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.csproj.CopyComplete
+C:\Users\Darius Walker\Source\Repos\dwalker0311\Alliance-Logger\Logging.API\obj\Debug\netcoreapp3.1\Logging.API.genruntimeconfig.cache
