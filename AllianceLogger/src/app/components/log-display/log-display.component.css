@@ -1,0 +1,9 @@
+table {
+    width: 100%;
+  }
+
+  .table-container {
+    max-height: calc(100vh - 58px); 
+    overflow: auto; 
+    
+ }
