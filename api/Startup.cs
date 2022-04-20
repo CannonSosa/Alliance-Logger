@@ -18,7 +18,7 @@ namespace Logging.API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            //CustomerLog log = new CustomerLog();
+            //DatabaseLogs log = new DatabaseLogs();
             //var json = Newtonsoft.Json.JsonConvert.SerializeObject(log);
         }
 

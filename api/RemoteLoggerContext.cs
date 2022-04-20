@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -19,9 +19,9 @@ namespace Logging.API
         {
         }
 
-        public virtual DbSet<Customer> Customers { get; set; }
-        public virtual DbSet<CustomerLog> CustomerLogs { get; set; }
-        public virtual DbSet<CustomerBookmark> CustomerBookmarks { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<DatabaseLogs> DatabaseLogs { get; set; }
+        public virtual DbSet<Bookmark> Bookmarks { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -39,7 +39,7 @@ namespace Logging.API
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Customer>(entity =>
+            modelBuilder.Entity<User>(entity =>
             {
                 entity.HasKey("CustomerID");
 
@@ -48,7 +48,7 @@ namespace Logging.API
                     .ValueGeneratedOnAdd();
             });
 
-            modelBuilder.Entity<CustomerLog>(entity =>
+            modelBuilder.Entity<DatabaseLogs>(entity =>
             {
                 entity.HasKey("LogID");
 
@@ -67,9 +67,12 @@ namespace Logging.API
                 entity.Property(e => e.LogContent).HasMaxLength(100);
 
                 entity.Property(e => e.LogDateTime).HasColumnType("datetime");
-            });
 
-            modelBuilder.Entity<CustomerBookmark>(entity =>
+                entity.Property(e => e.NoteContent).HasMaxLength(100);
+
+    });
+
+            modelBuilder.Entity<Bookmark>(entity =>
             {
                 entity.HasKey("BookmarkID");
 

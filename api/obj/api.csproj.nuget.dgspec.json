@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj": {}
+    "C:\\Users\\Darius Walker\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj": {
+    "C:\\Users\\Darius Walker\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj",
+        "projectUniqueName": "C:\\Users\\Darius Walker\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj",
+        "projectPath": "C:\\Users\\Darius Walker\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Darius Walker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\obj\\",
+        "outputPath": "C:\\Users\\Darius Walker\\Documents\\GitHub\\Alliance-Logger\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darius Walker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,9 +50,21 @@
               "target": "Package",
               "version": "[3.1.15, )"
             },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.RollingFileAlternate": {
+              "target": "Package",
+              "version": "[2.0.9, )"
             }
           },
           "imports": [
