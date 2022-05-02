@@ -14,7 +14,7 @@ namespace Logging.API
         public int LogID { get; set; }
         public string Application { get; set; }
         public string ApplicationVersion { get; set; }
-        public int? CustomerId { get; set; }
+        public int? UserID { get; set; }
         public int? CompanyId { get; set; }
         public DateTime? LogDateTime { get; set; }
         public string LogContent { get; set; }

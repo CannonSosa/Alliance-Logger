@@ -40,7 +40,7 @@ namespace Logging.API
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
+            Host.CreateDefaultBuilder(args) 
                 .UseWindowsService()
                 .ConfigureLogging(logging =>
                 {

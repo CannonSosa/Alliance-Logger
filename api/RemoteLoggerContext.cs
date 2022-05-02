@@ -1,4 +1,5 @@
 using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -19,7 +20,7 @@ namespace Logging.API
         {
         }
 
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<User> DatabaseUsers { get; set; }
         public virtual DbSet<DatabaseLogs> DatabaseLogs { get; set; }
         public virtual DbSet<Bookmark> Bookmarks { get; set; }
 
@@ -32,20 +33,22 @@ namespace Logging.API
 #if DEBUG
                 optionsBuilder.UseSqlServer(@"server=DESKTOP-L7N9NMJ\SQLEXPRESS;database=RemoteLogger;user id=devlogin;pwd=Benton$42025;");
 #else
-                optionsBuilder.UseSqlServer("server=USSDEV220;database=RemoteLogger;user id=sa;pwd=Alliance&*****;");
+                optionsBuilder.UseSqlServer(@"server=MSUWEBB4MS;database=RemoteLogger;user id=sa;pwd=Alliance&*****;");                
 #endif
-            }
+      }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey("CustomerID");
-
-                entity.Property(e => e.CustomerID)
-                    .HasColumnName("CustomerID")
+                entity.Property(e => e.Id)
+                    .HasColumnName("UserID")
                     .ValueGeneratedOnAdd();
+
+                entity.Property(e => e.UserName).HasMaxLength(20);                    
             });
 
             modelBuilder.Entity<DatabaseLogs>(entity =>
@@ -58,7 +61,7 @@ namespace Logging.API
 
                 entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
 
-                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
+                entity.Property(e => e.UserID).HasColumnName("UserID");
 
                 entity.Property(e => e.LogID)
                     .HasColumnName("LogID")
@@ -70,13 +73,13 @@ namespace Logging.API
 
                 entity.Property(e => e.NoteContent).HasMaxLength(100);
 
-    });
+            });
 
             modelBuilder.Entity<Bookmark>(entity =>
             {
                 entity.HasKey("BookmarkID");
 
-                entity.Property(e => e.CustomerID).HasColumnName("CustomerID");
+                entity.Property(e => e.UserID).HasColumnName("UserID");
 
                 entity.Property(e => e.LogID).HasColumnName("LogID");
 

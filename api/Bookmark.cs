@@ -12,7 +12,7 @@ namespace Logging.API
     public partial class Bookmark
     {
         public int BookmarkID { get; set; }
-        public int CustomerID { get; set; }
+        public int UserID { get; set; }
         public int LogID { get; set; }
 
     }

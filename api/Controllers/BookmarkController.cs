@@ -1,4 +1,5 @@
 using Logging.API.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -17,6 +18,7 @@ namespace Logging.API.Controllers
             _logger = logger;
         }
 
+    
         [HttpPost("AddBookmark")]
         public IActionResult AddBookmark([FromBody] Bookmark model)
         {
