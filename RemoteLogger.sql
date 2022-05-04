@@ -1,7 +1,7 @@
 USE [master]
 GO
 
-/****** Object:  Database [RemoteLogger]    Script Date: 3/23/2022 3:37:02 PM ******/
+/****** Object:  Database [RemoteLogger]    Script Date: 4/20/2022 12:28:03 AM ******/
 CREATE DATABASE [RemoteLogger]
  CONTAINMENT = NONE
  ON  PRIMARY 
