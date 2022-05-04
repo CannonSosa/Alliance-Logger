@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj": {}
+    "C:\\Users\\Darius Walker\\Documents\\GitHub\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj": {
+    "C:\\Users\\Darius Walker\\Documents\\GitHub\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\Darius Walker\\Documents\\GitHub\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christian\\Documents\\GitHub\\Alliance-Logger\\api\\obj\\",
+        "projectPath": "C:\\Users\\Darius Walker\\Documents\\GitHub\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\Darius Walker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darius Walker\\Documents\\GitHub\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darius Walker\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,22 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.23, )"
@@ -50,9 +66,25 @@
               "target": "Package",
               "version": "[3.1.15, )"
             },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.RollingFileAlternate": {
+              "target": "Package",
+              "version": "[2.0.9, )"
             }
           },
           "imports": [

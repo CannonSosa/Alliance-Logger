@@ -18,7 +18,8 @@ namespace Logging.API.Controllers
             _logger = logger;
         }
 
-    
+
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "User, Admin")]
         [HttpPost("AddBookmark")]
         public IActionResult AddBookmark([FromBody] Bookmark model)
         {
@@ -35,6 +36,7 @@ namespace Logging.API.Controllers
             }
         }
 
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "User, Admin")]
         [HttpDelete("DeleteBookmark")]
         public IActionResult DeleteBookmark(int bookmarkId)
         {

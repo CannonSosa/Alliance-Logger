@@ -33,6 +33,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication": "2.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.24",
+          "Microsoft.AspNetCore.Authorization": "3.1.24",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.23",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.23",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.15",
@@ -47,7 +48,6 @@
           "Microsoft.AspNetCore.Authentication.Core.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.OAuth": "3.1.0.0",
-          "Microsoft.AspNetCore.Authorization": "3.1.0.0",
           "Microsoft.AspNetCore.Authorization.Policy": "3.1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "3.1.0.0",
           "Microsoft.AspNetCore.Components": "3.1.0.0",
@@ -80,7 +80,6 @@
           "Microsoft.AspNetCore.Identity": "3.1.0.0",
           "Microsoft.AspNetCore.Localization": "3.1.0.0",
           "Microsoft.AspNetCore.Localization.Routing": "3.1.0.0",
-          "Microsoft.AspNetCore.Metadata": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "3.1.0.0",
@@ -330,6 +329,22 @@
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authorization/3.1.24": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.24",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "3.1.24.0",
+            "fileVersion": "3.100.2422.18006"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.23": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -428,6 +443,17 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.24": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "3.1.24.0",
+            "fileVersion": "3.100.2422.18006"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor/2.2.0": {
@@ -3034,12 +3060,6 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Authorization/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Authorization.dll": {}
-        },
-        "compileOnly": true
-      },
       "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Authorization.Policy.dll": {}
@@ -3229,12 +3249,6 @@
       "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Localization.Routing.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Metadata/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Metadata.dll": {}
         },
         "compileOnly": true
       },
@@ -4486,6 +4500,13 @@
       "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.24",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.1.24.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authorization/3.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BUx+RAGW26Vj0yG0dVVpSC2gl0Y216Aa1KKSLG2/lVNXjCVlLbRz5U1vnlqYTclEXvRo/qVQb7rOHVbw8RSijw==",
+      "path": "microsoft.aspnetcore.authorization/3.1.24",
+      "hashPath": "microsoft.aspnetcore.authorization.3.1.24.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.23": {
       "type": "package",
       "serviceable": true,
@@ -4569,6 +4590,13 @@
       "sha512": "sha512-nvkLdSjWRKrF/ZO3eefY58aE4r/OxKind0tGo5oIJrNPl7SfAaCHK8sk90/iPsEbyNDV6tycqiVFC9a0ldJCKQ==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.23",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.3.1.23.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qCKeaJAZtjHbVyUW4QYNJN8LuY6xjJZNxLzMznUrzG8+nXvX3mm/UHThlnw0Qp6eMViVvNRF081LXWyq1w2V+w==",
+      "path": "microsoft.aspnetcore.metadata/3.1.24",
+      "hashPath": "microsoft.aspnetcore.metadata.3.1.24.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor/2.2.0": {
       "type": "package",
@@ -5979,11 +6007,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authorization/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -6140,11 +6163,6 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Metadata/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

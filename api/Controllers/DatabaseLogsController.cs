@@ -19,6 +19,7 @@ namespace Logging.API.Controllers
             _logger = logger;
         }
 
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "User, Admin")]
         [HttpPost("SaveDatabaseLog")]
         public IActionResult SaveDatabaseLog([FromBody] DatabaseLogs model)
         {
@@ -37,6 +38,7 @@ namespace Logging.API.Controllers
             }
         }
 
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "User, Admin")]
         [HttpGet("GetDatabaseLog")]
         public IActionResult GetDatabaseLog(int logId)
         {
@@ -55,6 +57,7 @@ namespace Logging.API.Controllers
             }
         }
 
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "User, Admin")]
         [HttpGet("GetAllDatabaseLogs")]
         public IActionResult GetAllDatabaseLogs([FromBody] DatabaseLogs model)
         {
@@ -73,6 +76,7 @@ namespace Logging.API.Controllers
             }
         }
 
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "Admin")]
         [HttpDelete("DeleteDatabaseLog")]
         public IActionResult DeleteDatabaseLog(int logId)
         {
@@ -91,6 +95,7 @@ namespace Logging.API.Controllers
             }
         }
 
+        [Authorize(AuthenticationSchemes = "JwtBearer", Roles = "User, Admin")]
         [HttpPost("ModifyDatabaseLogNote")]
         public IActionResult ModifyDatabaseLogNote([FromBody] DatabaseLogs model)
         {
