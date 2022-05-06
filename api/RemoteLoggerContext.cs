@@ -1,5 +1,4 @@
-using System;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -20,9 +19,9 @@ namespace Logging.API
         {
         }
 
-        public virtual DbSet<User> DatabaseUsers { get; set; }
-        public virtual DbSet<DatabaseLogs> DatabaseLogs { get; set; }
-        public virtual DbSet<Bookmark> Bookmarks { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<CustomerLog> CustomerLogs { get; set; }
+        public virtual DbSet<CustomerBookmark> CustomerBookmarks { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -33,25 +32,23 @@ namespace Logging.API
 #if DEBUG
                 optionsBuilder.UseSqlServer(@"server=DESKTOP-L7N9NMJ\SQLEXPRESS;database=RemoteLogger;user id=devlogin;pwd=Benton$42025;");
 #else
-                optionsBuilder.UseSqlServer(@"server=MSUWEBB4MS;database=RemoteLogger;user id=sa;pwd=Alliance&*****;");                
+                optionsBuilder.UseSqlServer("server=USSDEV220;database=RemoteLogger;user id=sa;pwd=Alliance&*****;");
 #endif
-      }
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<User>(entity =>
+            modelBuilder.Entity<Customer>(entity =>
             {
-                entity.Property(e => e.Id)
-                    .HasColumnName("UserID")
-                    .ValueGeneratedOnAdd();
+                entity.HasKey("CustomerID");
 
-                entity.Property(e => e.UserName).HasMaxLength(20);                    
+                entity.Property(e => e.CustomerID)
+                    .HasColumnName("CustomerID")
+                    .ValueGeneratedOnAdd();
             });
 
-            modelBuilder.Entity<DatabaseLogs>(entity =>
+            modelBuilder.Entity<CustomerLog>(entity =>
             {
                 entity.HasKey("LogID");
 
@@ -61,7 +58,7 @@ namespace Logging.API
 
                 entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
 
-                entity.Property(e => e.UserID).HasColumnName("UserID");
+                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
 
                 entity.Property(e => e.LogID)
                     .HasColumnName("LogID")
@@ -70,16 +67,13 @@ namespace Logging.API
                 entity.Property(e => e.LogContent).HasMaxLength(100);
 
                 entity.Property(e => e.LogDateTime).HasColumnType("datetime");
-
-                entity.Property(e => e.NoteContent).HasMaxLength(100);
-
             });
 
-            modelBuilder.Entity<Bookmark>(entity =>
+            modelBuilder.Entity<CustomerBookmark>(entity =>
             {
                 entity.HasKey("BookmarkID");
 
-                entity.Property(e => e.UserID).HasColumnName("UserID");
+                entity.Property(e => e.CustomerID).HasColumnName("CustomerID");
 
                 entity.Property(e => e.LogID).HasColumnName("LogID");
 
