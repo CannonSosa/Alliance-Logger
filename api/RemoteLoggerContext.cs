@@ -30,7 +30,7 @@ namespace Logging.API
             {
                 //To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
 #if DEBUG
-                optionsBuilder.UseSqlServer(@"server=DESKTOP-L7N9NMJ\SQLEXPRESS;database=RemoteLogger;user id=devlogin;pwd=Benton$42025;");
+                optionsBuilder.UseSqlServer(@"server=DESKTOP-TNFR5NA\LOGGER;database=RemoteLogger;user id=sa;pwd=Cardinals*7;");
 #else
                 optionsBuilder.UseSqlServer("server=USSDEV220;database=RemoteLogger;user id=sa;pwd=Alliance&*****;");
 #endif

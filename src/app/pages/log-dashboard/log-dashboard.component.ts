@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'log-dashboard',
+  selector: 'app-log-dashboard',
   templateUrl: './log-dashboard.component.html',
   styleUrls: ['./log-dashboard.component.css']
 })

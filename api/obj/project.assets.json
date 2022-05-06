@@ -5328,19 +5328,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Darius Walker\\.nuget\\packages\\": {}
+    "C:\\Users\\dylan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj",
+      "projectUniqueName": "C:\\CSC 530\\Logger\\Alliance-Logger-master-Williams\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\api.csproj",
-      "packagesPath": "C:\\Users\\Darius Walker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\obj\\",
+      "projectPath": "C:\\CSC 530\\Logger\\Alliance-Logger-master-Williams\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
+      "outputPath": "C:\\CSC 530\\Logger\\Alliance-Logger-master-Williams\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Darius Walker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5399,7 +5399,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

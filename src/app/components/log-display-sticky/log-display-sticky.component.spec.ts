@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InfoDisplayComponent } from './info-display.component';
+import { LogDisplayStickyComponent } from './log-display-sticky.component';
 
-describe('InfoDisplayComponent', () => {
-  let component: InfoDisplayComponent;
-  let fixture: ComponentFixture<InfoDisplayComponent>;
+describe('LogDisplayStickyComponent', () => {
+  let component: LogDisplayStickyComponent;
+  let fixture: ComponentFixture<LogDisplayStickyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InfoDisplayComponent ]
+      declarations: [ LogDisplayStickyComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InfoDisplayComponent);
+    fixture = TestBed.createComponent(LogDisplayStickyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

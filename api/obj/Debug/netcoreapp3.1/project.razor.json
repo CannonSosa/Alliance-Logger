@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Darius Walker\\source\\repos\\dwalker0311\\Alliance-Logger\\Logging.API\\Logging.API.csproj",
+  "FilePath": "c:\\CSC 530\\Logger\\Alliance-Logger-master-Williams\\api\\api.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14399,7 +14399,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "Logging.API",
+  "RootNamespace": "api",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

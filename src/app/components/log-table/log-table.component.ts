@@ -1,20 +1,18 @@
-import { PostLogsService } from './../../Services/post-logs.service';
-import { SelectionModel } from '@angular/cdk/collections';
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
-import { MatTableDataSource } from '@angular/material/table';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
-import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
+import { MatTableDataSource } from '@angular/material/table';
+import { HttpClient } from '@angular/common/http';
+import {SelectionModel} from '@angular/cdk/collections';
+import {MatCheckboxModule} from '@angular/material/checkbox'; 
 
 export interface Log{
-  LogID: number,
-  Application: string,
-  ApplicationVersion: string,
-  CustomerID: number,
-  CompanyID: number,
-  LogDateTime: string,
-  LogContent: string,
-  Notes: string
+    logID: number,
+    application: string,
+    applicationVersion: string,
+    customerID: number,
+    logDateTime: string,
+    logContent: string
 }
 
 @Component({
@@ -22,39 +20,28 @@ export interface Log{
   templateUrl: './log-table.component.html',
   styleUrls: ['./log-table.component.css']
 })
-export class LogTableComponent implements OnInit, AfterViewInit {
-  color = "black";
-  logTabs: string[] = ['dashboard', 'Bookmarked','Recent'];
-
-  displayedColumns: string[] = ['Select','LogID','Application', 'ApplicationVersion', 'CustomerID', 'CompanyID','LogDateTime','LogContent','Actions'];
+export class LogTableComponent implements OnInit {
+  displayedColumns: string[] = ['select','logID', 'application', 'applicationVersion', 'customerID', 'logDateTime', 'LogContent', 'actions'];
   dataSource = new MatTableDataSource<Log>([]);
-  clickedRows = new Set<Log>();
-  bookmarked: number[] = [];
   selection = new SelectionModel<Log>(true, []);
-
   @ViewChild(MatPaginator, {static: true}) paginator!: MatPaginator;
   @ViewChild(MatSort, {static: true}) sort!: MatSort;
 
-  constructor(private service: PostLogsService ) {}
+  constructor(private http: HttpClient) { 
+
+  }
 
   ngOnInit(): void {
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
     this.fetchLogs()
+    console.log('DataSource', this.dataSource);
   }
 
   fetchLogs(): void {
-    this.service.getLogs().subscribe((data) => {
+    this.http.get('https://api.jsonbin.io/b/6250885bd20ace068f959856/10').subscribe((data) => {
       this.dataSource.data = data as Log[];
-    });
-  }
-
-  ngAfterViewInit(): void {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
-
-
-  drop(event: CdkDragDrop<string[]>) {
-    moveItemInArray(this.displayedColumns, event.previousIndex, event.currentIndex);
+    })
   }
 
   applyFilter(event: Event) {
@@ -66,32 +53,29 @@ export class LogTableComponent implements OnInit, AfterViewInit {
     }
   }
 
-  //SELECT
-  /** Whether the number of selected elements matches the total number of rows. */
+  //CHECKBOX
   isAllSelected() {
     const numSelected = this.selection.selected.length;
     const numRows = this.dataSource.data.length;
     return numSelected === numRows;
   }
 
-  /** Selects all rows if they are not all selected; otherwise clear selection. */
   masterToggle() {
     if (this.isAllSelected()) {
       this.selection.clear();
       return;
     }
+
     this.selection.select(...this.dataSource.data);
   }
 
-  /** The label for the checkbox on the passed row */
   checkboxLabel(row?: Log): string {
     if (!row) {
       return `${this.isAllSelected() ? 'deselect' : 'select'} all`;
     }
-    return `${this.selection.isSelected(row) ? 'deselect' : 'select'} row ${row.LogID + 1}`;
+    return `${this.selection.isSelected(row) ? 'deselect' : 'select'} row ${row.logID + 1}`;
   }
-
-
+  
 
 
 }
